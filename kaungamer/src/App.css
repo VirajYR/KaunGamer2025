@@ -1,0 +1,15 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add custom styles below this line */
+body {
+  @apply bg-gray-100; /* Example background color */
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: Customize h1 styles */
+h1 {
+  @apply text-center text-5xl text-orange-500 font-bold my-8;
+}
