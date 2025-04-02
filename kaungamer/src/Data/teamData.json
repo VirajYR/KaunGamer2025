@@ -1,0 +1,161 @@
+{
+    "faculty_coordinators": [
+      {
+        "name": "Ms. Akanksha Kaushik",
+        "email": "akankashakaushik@ncuindia.edu",
+        "image": "https://www.ncuindia.edu/wp-content/uploads/2022/07/F1413-Akanksha-Kaushik.jpg"
+      },
+      {
+        "name": "Ms. Sneha Kandacharam",
+        "email": "snehakandacharam@ncuindia.edu",
+        "image": "https://media.licdn.com/dms/image/v2/D5603AQFgUczUnTIH4Q/profile-displayphoto-shrink_200_200/B56ZVsVCBWHQAg-/0/1741279208234?e=1749081600&v=beta&t=-DP6RopMfFACQRM4DszdApfN7jCsoT7ailthHdGm_a8"
+      },
+      {
+        "name": "Dr. Nidhi Malik",
+        "email": "nidhimalik@ncuindia.edu",
+        "image": "https://www.ncuindia.edu/wp-content/uploads/2022/08/dr-nidhi-malik.jpg"
+      }
+    ],
+    "teams": [
+      {
+        "role": "EVENT ORGANISER",
+        "head": {
+          "name": "Jatin Dalal",
+          "description": "Hello everyone, Myself Jatin Dalal, Organizer of Kaun Gamer? 1.0...",
+          "image": "assets//team//jatin_dalal.jpg"
+        }
+      },
+      {
+        "role": "SPONSORSHIP COORDINATOR",
+        "head": {
+          "name": "Rakshat Chawla",
+          "description": "Hello everyone, I am Rakshat Chawla, Head of Sponsorship...",
+          "image": "//assets//team//Rakshat.jpg"
+        }
+      },
+      {
+        "role": "CONTENT STRATEGIST",
+        "heads": [
+          {
+            "name": "Leana",
+            "description": "Hi, I'm Leana, and I'm the Content Head for the Kaun Gamer 1.0...",
+            "image": "assets/team/leana.jpg"
+          },
+          {
+            "name": "Rishika Jain",
+            "description": "Hello everyone ✨️ I am Rishika Jain, Head of Content Team...",
+            "image": "assets/team/rishika_jain.jpg"
+          }
+        ]
+      },
+      {
+        "role": "OPERATIONS",
+        "heads": [
+          {
+            "name": "Chesta Chauhan",
+            "description": "Hey everyone! I’m Chesta Chauhan, Supervisor for Kaun Gamer? 1.0...",
+            "image": "assets/team/chesta_chauhan.jpg"
+          },
+          {
+            "name": "Nayan Anand",
+            "description": "Hey everyone! I’m Nayan Anand, Supervisor for Kaun Gamer? 1.0...",
+            "image": "assets/team/nayan_anand.jpg"
+          }
+        ]
+      },
+      {
+        "role": "DESIGN",
+        "heads": [
+          {
+            "name": "Oditi Agarwal",
+            "description": "Hi, I'm Oditi Agarwal, and I'm the Graphic Head for Kaun Gamer 1.0...",
+            "image": "assets/team/oditi_agarwal.jpg"
+          },
+          {
+            "name": "Gayatri Rao",
+            "description": "Hey guys✨ I'm Gayatri Rao, Head of Graphic Team for Kaun Gamer 1.0...",
+            "image": "assets/team/gayatri_rao.jpg"
+          }
+        ]
+      },
+      {
+        "role": "DIGITAL OUTREACH",
+        "head": {
+          "name": "Siya Yadav",
+          "description": "Hellooo everyone✨ I am Siya Yadav, Head of Social Media Team...",
+          "image": "assets/team/siya_yadav.jpg"
+        }
+      },
+      {
+        "role": "EVENT COORDINATOR",
+        "heads": [
+          {
+            "name": "Dipender",
+            "description": "Hello Everyone I am Dipender, Head of one Event Manager Team...",
+            "image": "assets/team/dipender.jpg"
+          },
+          {
+            "name": "Madhur",
+            "description": "Hello Everyone ✨ I am Madhur, Event Management Head for Kaun Gamer? 1.0...",
+            "image": "assets/team/madhur.jpg"
+          }
+        ]
+      },
+      {
+        "role": "EMAIL COMMUNICATION",
+        "heads": [
+          {
+            "name": "Vanshika Jain",
+            "description": "Hi guys🌟 It's me Vanshika, heading email handling and event reporting...",
+            "image": "assets/team/vanshika_jain.jpg"
+          },
+          {
+            "name": "Kamakshee Jeena",
+            "description": "Greetings everyone. I'm Kamakshee Jeena, head of mail writing and editing...",
+            "image": "assets/team/kamakshee_jeena.jpg"
+          }
+        ]
+      },
+      {
+        "role": "DATA COMPILATION",
+        "heads": [
+          {
+            "name": "Simran Yadav",
+            "description": "Simran Yadav, Head of Data Compilation of Kaun Gamer 1.0...",
+            "image": "assets/team/simran_yadav.jpg"
+          },
+          {
+            "name": "Amandeep Singh",
+            "description": "Yoo guyzz wassup I'm Amandeep Singh, Data Coordinator for Kaun Gamer 1.0...",
+            "image": "assets/team/amandeep_singh.jpg"
+          }
+        ]
+      },
+      {
+        "role": "VIDEOGRAPHY",
+        "heads": [
+          {
+            "name": "Dhriti Adlakha",
+            "description": "Hiee everyone, I am Dhritti Adlakha, Photographer of Kaun Gamer 1.0...",
+            "image": "assets/team/dhriti_adlakha.jpg"
+          },
+          {
+            "name": "Gaurang",
+            "description": "Hi I am Gaurang and I am the Videography Head for Kaun Gamer 1.0...",
+            "image": "assets/team/gaurang.jpg"
+          }
+        ]
+      },
+      {
+        "role": "PHOTOGRAPHY",
+        "heads": [
+          {
+            "name": "Sneha",
+            "description": "Hey everyone! I’m Sneha, Photography Head at Kaun Gamer? 1.0...",
+            "image": "assets/team/sneha.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -122,7 +122,7 @@ const Home = () => {
                 <h3 className="text-2xl font-bold text-center mb-2">{event.name}</h3>
                 <p className="text-gray-400 mb-4">{event.description}</p>
                 <a
-                  href="https://forms.gle/your-google-form-link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdVVVW-xCHHsd2oNZsnGfbZcLEoPpwY51WAtdNO8cDnNjaf-w/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg inline-block text-center flex justify-center"
@@ -144,7 +144,7 @@ const Home = () => {
           Register as a spectator and witness top-tier esports competition!
         </p>
         <a
-          href="https://forms.gle/your-spectator-form-link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdVVVW-xCHHsd2oNZsnGfbZcLEoPpwY51WAtdNO8cDnNjaf-w/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg"

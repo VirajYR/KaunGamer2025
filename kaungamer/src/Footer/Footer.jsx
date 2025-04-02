@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="text-center md:text-left text-gray-400">
             <p className="text-lg font-bold text-indigo-500">Contact Us</p>
             <p>Email: contact@kaungamer.com</p>
-            <p>Phone: +91-1234567890</p>
+            <p>Phone: +91 93154 31144 ( Jatin )</p>
             <p>Address: The NorthCap University, Gurugram, India</p>
           </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex space-x-4">
             {/* WhatsApp */}
             <a
-              href="https://wa.me/1234567890"
+              href="https://whatsapp.com/channel/0029VbAXTG65Ui2UYxj5Lf0s"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -43,7 +43,7 @@ const Footer = () => {
 
             {/* Discord */}
             <a
-              href="https://discord.gg/your-server"
+              href="https://discord.gg/295RayraQZ"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Discord"
@@ -57,7 +57,7 @@ const Footer = () => {
 
             {/* Instagram */}
             <a
-              href="https://instagram.com/yourprofile"
+              href="https://www.instagram.com/kaun_gamer.ncu/?utm_source=ig_web_button_share_sheet"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -71,7 +71,7 @@ const Footer = () => {
 
             {/* YouTube */}
             <a
-              href="https://www.youtube.com/channel/UCjtCbnkIaiCJgj13sEZ9iqw"
+              href="https://www.youtube.com/@AnmolMittalGametech"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
