@@ -3,34 +3,57 @@ import React from "react";
 const FAQ = () => {
   const faqData = [
     {
-      question: "What is KaunGamer?",
-      answer:
-        "KaunGamer is a premier esports event organized at The NorthCap University, featuring top-tier competitions across multiple games.",
+      question: "Who is eligible to participate in Kaun Gamer 1.0?",
+      answer: "Anyone residing in India can take part.",
     },
     {
-      question: "When will the event be held?",
-      answer:
-        "The online event will be held from 6-10 April 2025, followed by the offline event on 11 & 12 April 2025.",
+      question: "What is the tournament format?",
+      answer: "The format will be determined based on participant responses.",
     },
     {
-      question: "How do I register for the event?",
-      answer:
-        "You can register for the event by clicking on the 'Register Now' button available on the homepage or in the navigation menu.",
+      question: "Is the ₹1 Lakh prize pool for a single game or shared among all games?",
+      answer: "The ₹1 Lakh prize pool is distributed across all games.",
     },
     {
-      question: "What games will be featured?",
-      answer:
-        "The event will feature popular esports titles like Valorant, BGMI, Call of Duty, and Counter Strike 2.",
+      question: "How many players are required per team?",
+      answer: (
+        <span>
+          Each game has specific team requirements:
+          <ul className="list-disc pl-5 mt-2">
+            <li>BGMI & CoDM: 4 players + 1 substitute</li>
+            <li>CS2 & Valorant: 5 players + 1 substitute</li>
+          </ul>
+          A minimum of 48 teams is needed for a fair competition.
+        </span>
+      ),
     },
     {
-      question: "Is there an age limit to participate?",
-      answer:
-        "Yes, participants must be 16 years or older to compete in the tournaments.",
+      question: "How can teams register?",
+      answer: (
+        <span>
+          Each team member must individually complete the registration through the Google Form. <br />
+          <a
+            href="https://forms.gle/X9bVCbngKzhissDKA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-400 underline"
+          >
+            🔗 Registration Link
+          </a>
+        </span>
+      ),
     },
     {
-      question: "What are the prizes for the winners?",
-      answer:
-        "Winners will receive cash prizes, gaming gear, and certificates of excellence.",
+      question: "Can a player compete in multiple games?",
+      answer: "No, a participant can register for only one game.",
+    },
+    {
+      question: "Can spectators attend the event?",
+      answer: "Yes, spectators are welcome only for the offline days. The entry fee is ₹200 per person per day.",
+    },
+    {
+      question: "Will there be activities apart from the main tournament?",
+      answer: "Yes, there will be exciting mini-games alongside the main competition.",
     },
   ];
 

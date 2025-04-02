@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer.jsx";
 import Home from "./Home/Home.jsx";
 import Faq from "./FAQ/Faq.jsx";
 import AboutUs from "./AboutUs/AboutUs.jsx";
+import Rules from "./Rules/Rules.jsx";
 // Sample Placeholder Components
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/rules" element={<Rules />} />
           <Route path="/team" element={<MeetTheTeam />} />
           <Route path="/about" element={<AboutUs />} />
         </Routes>

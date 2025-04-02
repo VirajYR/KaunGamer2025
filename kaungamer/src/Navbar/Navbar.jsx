@@ -27,12 +27,21 @@ const Navbar = () => {
             >
               Home
             </Link>
+
             <Link
               to="/faq"
               className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-8 hover:scale-110"
             >
               FAQ
             </Link>
+
+            <Link
+              to="/rules"
+              className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-8 hover:scale-110"
+            >
+              RULES
+            </Link>
+            
             <Link
               to="/team"
               className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-8 hover:scale-110"
@@ -46,7 +55,7 @@ const Navbar = () => {
               About Us
             </Link>
             <a
-              href="https://forms.gle/your-google-form-link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdVVVW-xCHHsd2oNZsnGfbZcLEoPpwY51WAtdNO8cDnNjaf-w/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-indigo-700 transition-transform transform hover:scale-105"
@@ -56,7 +65,7 @@ const Navbar = () => {
           </nav>
 
           {/* Right Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="https://www.ncuindia.edu" className="flex items-center space-x-3">
             <div className="bg-white p-1 rounded-lg">
               <img
                  src={logo2}

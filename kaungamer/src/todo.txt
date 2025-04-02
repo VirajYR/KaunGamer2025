@@ -1,0 +1,4 @@
+ Create register for spectators
+ Create rule page
+ Points table
+ Team bracket
