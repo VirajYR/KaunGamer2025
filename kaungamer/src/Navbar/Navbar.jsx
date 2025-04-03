@@ -36,10 +36,17 @@ const Navbar = () => {
             </Link>
 
             <Link
+              to="/teams"
+              className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-8 hover:scale-110"
+            >
+              Teams
+            </Link>
+
+            <Link
               to="/rules"
               className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline hover:underline-offset-8 hover:scale-110"
             >
-              RULES
+              Rules
             </Link>
             
             <Link

@@ -1,4 +1,5 @@
 import React from "react";
+import bgImg1 from "../assets/bgImg1.jpg";
 
 const FAQ = () => {
   const faqData = [
@@ -58,16 +59,23 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="bg-gray-900 min-h-screen text-white py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-indigo-500 mb-8">
+    <div
+      className="min-h-screen text-white py-12 px-4 bg-cover bg-center relative"
+      style={{ backgroundImage: `url(${bgImg1})` }}
+    >
+      {/* Overlay for better readability */}
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      <div className="max-w-4xl mx-auto relative z-10">
+        <h2 className="text-4xl font-bold text-center text-red-500 mb-8">
           Frequently Asked Questions
         </h2>
         <div className="space-y-6">
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-6 rounded-lg shadow-md hover:scale-105 transition-transform"
+              className="bg-gray-800 p-6 rounded-lg shadow-md transition-transform duration-300
+                         hover:scale-105 hover:shadow-lg hover:shadow-red-500/50"
             >
               <h3 className="text-2xl font-semibold mb-2">{item.question}</h3>
               <p className="text-gray-400">{item.answer}</p>

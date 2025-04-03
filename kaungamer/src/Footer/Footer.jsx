@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Contact Details */}
           <div className="text-center md:text-left text-gray-400">
             <p className="text-lg font-bold text-indigo-500">Contact Us</p>
-            <p>Email: contact@kaungamer.com</p>
+            <p>Email: jatin21csu539@ncuindia.edu</p>
             <p>Phone: +91 93154 31144 ( Jatin )</p>
             <p>Address: The NorthCap University, Gurugram, India</p>
           </div>
